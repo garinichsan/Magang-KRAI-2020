@@ -1,5 +1,6 @@
 #include "point.h"
 #include <stdio.h>
+#include <math.h>
 int main(){
     POINT a,b;
     printf("\nMasukkan Point A: ");
