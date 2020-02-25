@@ -3,7 +3,8 @@
 using namespace std;
 
 int main() {
-    POINT P = MakePOINT(1,1);
-    Geser (*P, 2, 3);
-    printf("%d%d",Absis(P), Ordinat(P));
+    POINT P = MakePOINT(4,3);
+    float qwe;
+    qwe = Jarak0(P);
+    printf("%f",qwe);
     }

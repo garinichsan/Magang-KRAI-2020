@@ -1,5 +1,6 @@
 #include"point.h"
 #include<stdio.h>
+#include<math.h>
 
 using namespace std;
 
@@ -50,4 +51,9 @@ int Kuadran (POINT P){
 void Geser (POINT *P, float deltaX, float deltaY) {
     Absis(*P) += deltaX;
     Ordinat(*P) += deltaY;
+}
+
+float Jarak0 (POINT P){
+    float yuhu = Absis(P)*Absis(P)+Ordinat(P)*Ordinat(P);
+    return sqrt(yuhu);
 }
