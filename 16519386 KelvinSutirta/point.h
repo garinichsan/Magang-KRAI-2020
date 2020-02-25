@@ -5,7 +5,7 @@
 #define POINT_H
 
 typedef struct { 
-	float X; /* absis   */
+	float X; /* absis   */ 
 	float Y; /* ordinat */
 } POINT;
 
