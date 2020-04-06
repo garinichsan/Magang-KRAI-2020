@@ -8,7 +8,7 @@ public :
     void Print(int i);       //Print nilai i yang diberikan sbg parameter aktual   
     void Set (int x);       // set val dengan x 
     int Add (int x, int y); // mengirimkan x+y   
-    void Add (int x); // menambah val dengan x
+    void Add (int x); // menambah val dengan xa
 private :
      int val;
 }; 
