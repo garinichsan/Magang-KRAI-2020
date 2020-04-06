@@ -7,7 +7,6 @@ using namespace std;
 void Z::Print() {   //Print nilai val
     cout << "val= "<<  Z::val << endl;
 }
-
 void Z::Print(int i) {   //Print nilai i yang diberikan sbg parameter aktual 
     cout << Z::val <<" +"  << i << "=" << Z::val + i << endl; 
 } 
